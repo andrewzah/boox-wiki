@@ -1,0 +1,5 @@
+:8080 {
+  encode gzip
+  root * /app/boox-wiki/site
+  file_server
+}
